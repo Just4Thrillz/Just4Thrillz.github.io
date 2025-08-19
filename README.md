@@ -1,379 +1,469 @@
-# Just4Thrillz.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Just4Thrillz</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #000;
-      color: #fff;
-    }
-    header {
-      background-color: #111;
-      text-align: center;
-      padding: 20px;
-    }
-    header img {
-      max-width: 220px;
-    }
-    nav {
-      background-color: #222;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 15px 0;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: #ff0000;
-    }
-    .hero {
-      background: linear-gradient(to right, #0000ff, #ff0000);
-      text-align: center;
-      padding: 60px 20px;
-    }
-    .hero h1 {
-      font-size: 3em;
-      color: #ffff00;
-    }
-    .section {
-      padding: 50px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .section h2 {
-      color: #ff0000;
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-    .form-group {
-      margin-bottom: 15px;
-    }
-    input, textarea, select {
-      width: 100%;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      margin-top: 5px;
-    }
-    button {
-      background-color: #0000ff;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #ff0000;
-    }
-    .social-links a {
-      margin: 0 10px;
-      color: #ffff00;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      background-color: #111;
-      text-align: center;
-      padding: 30px 20px;
-      font-size: 0.9em;
-    }
-  </style>
+  <title>Just4Thrillz — Entertainment • Wellness • Travel • Community</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <img src="logo.jpeg" alt="Just4Thrillz Logo" />
-  </header>
-
+<!-- 🔻 START HEADER -->
+<header class="site-header">
+  <!-- TODO: replace this placeholder text with your logo image -->
+  <div class="logo">Just4Thrillz</div>
   <nav>
-    <a href="#about">About</a>
-    <a href="#booking">Book</a>
-    <a href="#merch">Merch</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="coaching.html">Coaching</a>
+    <a href="retreats.html">Retreats</a>
+    <a href="travel.html">Travel & Dining</a>
+    <a href="community.html">Community</a>
+    <a href="contact.html">Contact</a>
   </nav>
+</header>
+<!-- 🔺 END HEADER -->
 
-  <section class="hero">
-    <h1>Welcome to Just4Thrillz</h1>
-    <p>Entertainment. Wellness. Travel. Connection. We create unforgettable experiences that spark joy and build community.</p>
-  </section>
+<!-- HERO -->
+<section class="hero">
+  <h1>Entertainment • Wellness • Travel • Community</h1>
+  <p>Creating fun, healthy and inspiring experiences for Baltimore and beyond.</p>
+  <a class="btn" href="events.html">View Upcoming Events</a>
+</section>
 
-  <section class="section" id="about">
-    <h2>About Us</h2>
-    <p>Just4Thrillz is based in Baltimore, Maryland. We specialize in entertainment events for healthy living, relationship coaching, talk dining, travel adventures, retreats, and community empowerment. Founded by Lorraine, our mission is to help people live boldly and connect deeply.</p>
-  </section>
+<!-- ABOUT -->
+<section class="section">
+  <h2>About Just4Thrillz</h2>
+  <p>
+    Just4Thrillz offers entertainment events for healthy living, relationship activities & coaching,
+    talk dining and travel destinations, fun events and trips, and retreats designed to better
+    ourselves and encourage the community. Based in Baltimore, Maryland.
+  </p>
+</section>
 
-  <section class="section" id="booking">
-    <h2>Book an Experience</h2>
-    <form>
-      <div class="form-group">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" required />
-      </div>
-      <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" required />
-      </div>
-      <div class="form-group">
-        <label for="service">Select Service</label>
-        <select id="service">
-          <option>Wellness Retreat</option>
-          <option>Relationship Coaching</option>
-          <option>Talk Dining</option>
-          <option>Travel Experience</option>
-          <option>Merch Order</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="message">Additional Notes</label>
-        <textarea id="message" rows="4"></textarea>
-      </div>
-      <button type="submit">Submit Booking</button>
-    </form>
-  </section>
+<!-- QUICK LINKS -->
+<section class="section grid">
+  <div class="card">
+    <h3>Events</h3>
+    <p>Healthy living & fun entertainment events.</p>
+    <a class="btn-small" href="events.html">Explore Events</a>
+  </div>
+  <div class="card">
+    <h3>Coaching</h3>
+    <p>Relationship activities and coaching sessions.</p>
+    <a class="btn-small" href="coaching.html">Learn More</a>
+  </div>
+  <div class="card">
+    <h3>Retreats</h3>
+    <p>Travel, reset, and grow with our uplifting retreats.</p>
+    <a class="btn-small" href="retreats.html">View Retreats</a>
+  </div>
+</section>
+
+<!-- CONTACT BLOCK -->
+<section class="section section--contact">
+  <h2>Get in touch</h2>
+  <p><strong>Email:</strong> just4thrillzat@gmail.com</p>
+  <p><strong>Phone:</strong> (410) 245-6537</p>
+  <p><strong>Location:</strong> Baltimore, Maryland</p>
+  <a class="btn" href="contact.html">Contact Us</a>
+</section>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Just4Thrillz Merch</title>
-  <style>
-    body {
-      font-family: 'Helvetica Neue', sans-serif;
-      background: #fff;
-      margin: 0;
-      padding: 0;
-      color: #111;
-    }
-    header {
-      background: #000;
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 48px;
-      margin: 0;
-    }
-    .merch-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 40px;
-      padding: 60px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .item {
-      background: #f5f5f5;
-      border-radius: 12px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    .item img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    .item h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    .item p {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 20px;
-    }
-    .item button {
-      background: #000;
-      color: #fff;
-      padding: 12px 24px;
-      font-size: 16px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .item button:hover {
-      background: #444;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | Just4Thrillz</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <h1>🔥 Just4Thrillz Merch</h1>
-  <p style="font-size:18px; margin-top:10px;">Wear the vibe. Live the thrill.</p>
+<header class="site-header">
+  <div class="logo">Just4Thrillz</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html" class="active">Events</a>
+    <a href="coaching.html">Coaching</a>
+    <a href="retreats.html">Retreats</a>
+    <a href="travel.html">Travel & Dining</a>
+    <a href="community.html">Community</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 </header>
 
-<section class="merch-grid">
-  <!-- Hoodie -->
-  <div class="item">
-    <img src="https://yourdomain.com/images/chrome-hoodie.jpg" alt="Chrome Hoodie">
-    <h2>Chrome Hoodie</h2>
-    <p>Bold, reflective, and built for movement. Limited drop.</p>
-    <a href="https://buy.stripe.com/bJecN7a9c48Z6xLdUa5os00" target="_blank">
-      <button>Buy Now – $65</button>
-    </a>
+<section class="hero">
+  <h1>Upcoming Events</h1>
+  <p>Healthy and fun events to uplift, educate and entertain our community.</p>
+</section>
+
+<section class="section">
+  <!-- Event 1 -->
+  <div class="event-card">
+    <h3>Event Title (TBA)</h3>
+    <p>Date: TBD – Location: TBD</p>
+    <p>Short description of the event goes here.</p>
+    <a class="btn-small" href="#" target="_blank">Get Tickets</a>
   </div>
 
-  <!-- Graphic Tee -->
-  <div class="item">
-    <img src="https://yourdomain.com/images/graphic-tee.jpg" alt="Graphic Tee">
-    <h2>Vibe Graphic Tee</h2>
-    <p>Streetwear meets soul. Soft cotton, loud message.</p>
-    <a href="https://buy.stripe.com/test-link-graphic-tee" target="_blank">
-      <button>Buy Now – $30</button>
-    </a>
+  <!-- Event 2 -->
+  <div class="event-card">
+    <h3>Event Title (TBA)</h3>
+    <p>Date: TBD – Location: TBD</p>
+    <p>Short description of the event goes here.</p>
+    <a class="btn-small" href="#" target="_blank">Get Tickets</a>
   </div>
 
-  <!-- Bucket Hat -->
-  <div class="item">
-    <img src="https://yourdomain.com/images/bucket-hat.jpg" alt="Bucket Hat">
-    <h2>Thrillz Bucket Hat</h2>
-    <p>Shade with swagger. Embroidered logo. Festival-ready.</p>
-    <a href="https://buy.stripe.com/test-link-bucket-hat" target="_blank">
-      <button>Buy Now – $25</button>
-    </a>
+  <!-- Event 3 -->
+  <div class="event-card">
+    <h3>Event Title (TBA)</h3>
+    <p>Date: TBD – Location: TBD</p>
+    <p>Short description of the event goes here.</p>
+    <a class="btn-small" href="#" target="_blank">Get Tickets</a>
   </div>
 </section>
+
+<footer class="site-footer">
+  <p>© 2025 Just4Thrillz — All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
 
-<section id="merch">
-  <h2>Buy Just4Thrillz Chrome Hoodie</h2>
-  <p>Secure your exclusive hoodie now. Limited quantities available.</p>
-  <a href="https://buy.stripe.com/bJecN7a9c48Z6xLdUa5os00" target="_blank">
-    <button style="background-color:#0000ff; color:#fff; padding:12px 24px; border:none; border-radius:5px; font-size:16px; font-weight:bold;">
-      Buy Now – $65
-    </button>
-  </a>
-</section>
-
-<form action="/create-checkout-session" method="POST">
-  <button type="submit">Buy Chrome Hoodie – $65</button>
-</form>
-
-// server.js
-const express = require('express');
-const stripe = require('stripe')('sk_test_your_secret_key');
-const app = express();
-app.use(express.static('public'));
-app.use(express.json());
-
-app.post('/create-checkout-session', async (req, res) => {
-  const session = await stripe.checkout.sessions.create({
-    line_items: [{
-      price_data: {
-        currency: 'usd',
-        product_data: {
-          name: 'Just4Thrillz Chrome Hoodie',
-        },
-        unit_amount: 4500, // $65.00
-      },
-      quantity: 1,
-    }],
-    mode: 'payment',
-    success_url: 'https://yourdomain.com/success',
-    cancel_url: 'https://yourdomain.com/cancel',
-  });
-
-  res.redirect(303, session.url);
-});
-
-app.listen(4242, () => console.log('Running on port 4242'));
-
-
-
-
-<!-- success.html -->
-<h1>Thanks for your purchase!</h1>
-<p>Your Chrome Hoodie is on the way. Stay Thrillz’d.</p>
-
-<!-- cancel.html -->
-<h1>Payment canceled</h1>
-<pNo worries — you can try again anytime.</p>
-
-<header style="background:#000; color:#fff; padding:80px 20px; text-align:center;">
-  <h1 style="font-size:60px; margin-bottom:10px;">JUST4THRILLZ MERCH</h1>
-  <p style="font-size:20px; max-width:600px; margin:auto;">Wear the energy. Rep the movement. Every piece tells a story.</p>
-  <a href="#shop" style="display:inline-block; margin-top:30px;">
-    <button style="background:#fff; color:#000; padding:14px 28px; font-size:18px; border:none; border-radius:8px; cursor:pointer;">
-      Shop the Drop
-    </button>
-  </a>
-</header>
-
-
-  <section class="section" id="merch">
-    <h2>Merch & Payments</h2>
-    <p>To purchase merch or pay for services, please complete the form below. A team member will follow up with payment options.</p>
-    <form>
-      <div class="form-group">
-        <label for="product">Product or Service</label>
-        <input type="text" id="product" required />
-      </div>
-      <div class="form-group">
-        <label for="amount">Amount (USD)</label>
-        <input type="number" id="amount" required />
-      </div>
-      <div class="form-group">
-        <label for="payment">Preferred Payment Method</label>
-        <select id="payment">
-          <option>CashApp</option>
-          <option>PayPal</option>
-          <option>Venmo</option>
-          <option>Zelle</option>
-        </select>
-      </div>
-      <button type="submit">Submit Payment Request</button>
-    </form>
-  </section>
-
-  <section class="section" id="reviews">
-    <h2>Leave a Review</h2>
-    <form>
-      <div class="form-group">
-        <label for="reviewer">Your Name</label>
-        <input type="text" id="reviewer" required />
-      </div>
-      <div class="form-group">
-        <label for="review">Your Review</label>
-        <textarea id="review" rows="4" required></textarea>
-      </div>
-      <button type="submit">Submit Review</button>
-    </form>
-  </section>
-
-  <section class="section" id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: just4thrillzat@gmail.com<br />
-       Phone: (410) 245-6537<br />
-       Location: Baltimore, Maryland</p>
-    <div class="social-links">
-      <a href="https://facebook.com/Just4Thrillz" target="_blank">Facebook</a>
-      <a href="https://instagram.com/Just4Thrillz" target="_blank">Instagram</a>
-      <a href="https://youtube.com/@Just4Thrillz" target="_blank">YouTube</a>
-      <a href="https://tiktok.com/@Just4Thrillz" target="_blank">TikTok</a>
-    </div>
-    <p><strong>Buy Tickets:</strong> <a href="https://eventbrite.com/o/just4thrillz-00000000000" target="_blank">Visit Eventbrite</a></p>
-  </section>
-
-  <footer>
-    &copy; 2025 Just4Thrillz. All rights reserved.
-  </footer>
+<!-- FOOTER -->
+<footer class="site-footer">
+  <p>© 2025 Just4Thrillz — All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coaching | Just4Thrillz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">Just4Thrillz</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="coaching.html" class="active">Coaching</a>
+    <a href="retreats.html">Retreats</a>
+    <a href="travel.html">Travel & Dining</a>
+    <a href="community.html">Community</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Relationship Activities & Coaching</h1>
+  <p>Helping individuals and couples grow, communicate and thrive together.</p>
+</section>
+
+<section class="section">
+  <h2>What We Offer</h2>
+  <ul>
+    <li>Interactive relationship-building activities</li>
+    <li>Group and one-on-one coaching sessions</li>
+    <li>Communication & conflict-resolution workshops</li>
+  </ul>
+
+  <p>All coaching sessions and activities are led by trusted facilitators and designed to strengthen bonds and support healthy, thriving relationships.</p>
+
+  <a href="#" class="btn">Book a Session</a>
+</section>
+
+<footer class="site-footer">
+  <p>© 2025 Just4Thrillz — All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retreats | Just4Thrillz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">Just4Thrillz</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="coaching.html">Coaching</a>
+    <a href="retreats.html" class="active">Retreats</a>
+    <a href="travel.html">Travel & Dining</a>
+    <a href="community.html">Community</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Wellness & Personal Growth Retreats</h1>
+  <p>Recharge, connect, and grow through our uplifting retreat experiences.</p>
+</section>
+
+<section class="section">
+  <!-- Retreat 1 -->
+  <div class="event-card">
+    <h3>Retreat Name (TBA)</h3>
+    <p>Date: TBD – Location: TBD</p>
+    <p>Short description of the retreat goes here.</p>
+    <a class="btn-small" href="#" target="_blank">Reserve Spot</a>
+  </div>
+
+  <!-- Retreat 2 -->
+  <div class="event-card">
+    <h3>Retreat Name (TBA)</h3>
+    <p>Date: TBD – Location: TBD</p>
+    <p>Short description of the retreat goes here.</p>
+    <a class="btn-small" href="#" target="_blank">Reserve Spot</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© 2025 Just4Thrillz — All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel & Dining | Just4Thrillz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">Just4Thrillz</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="coaching.html">Coaching</a>
+    <a href="retreats.html">Retreats</a>
+    <a href="travel.html" class="active">Travel & Dining</a>
+    <a href="community.html">Community</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Travel & Dining Experiences</h1>
+  <p>Join us for fun trips, dining events and cultural destination experiences.</p>
+</section>
+
+<section class="section">
+  <!-- Travel 1 -->
+  <div class="event-card">
+    <h3>Trip / Dining Event (TBA)</h3>
+    <p>Date: TBD – Location: TBD</p>
+    <p>Short description of the experience goes here.</p>
+    <a class="btn-small" href="#" target="_blank">Get Tickets</a>
+  </div>
+
+  <!-- Travel 2 -->
+  <div class="event-card">
+    <h3>Trip / Dining Event (TBA)</h3>
+    <p>Date: TBD – Location: TBD</p>
+    <p>Short description of the experience goes here.</p>
+    <a class="btn-small" href="#" target="_blank">Get Tickets</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© 2025 Just4Thrillz — All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community | Just4Thrillz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">Just4Thrillz</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="coaching.html">Coaching</a>
+    <a href="retreats.html">Retreats</a>
+    <a href="travel.html">Travel & Dining</a>
+    <a href="community.html" class="active">Community</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Community & Encouragement</h1>
+  <p>Sharing stories, inspiration and highlights from the Just4Thrillz community.</p>
+</section>
+
+<section class="section">
+  <!-- Post 1 -->
+  <div class="event-card">
+    <h3>Community Highlight (TBA)</h3>
+    <p>Short inspirational message or recap of a past event.</p>
+  </div>
+
+  <!-- Post 2 -->
+  <div class="event-card">
+    <h3>Community Highlight (TBA)</h3>
+    <p>Short inspirational message or recap of a past event.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© 2025 Just4Thrillz — All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+/* --------- Base styles --------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f8f9fa;
+}
+a { text-decoration: none; }
+
+.site-header {
+  background: #ff0000;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header nav a {
+  margin-left: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.site-header nav a.active {
+  text-decoration: underline;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg,#ff0000,#ffd700,#2563eb);
+  color: #fff;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background:#fff;
+  color:#ff0000;
+  padding:10px 20px;
+  border-radius:5px;
+}
+
+.section {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+
+.card {
+  background:#fff;
+  padding:1rem;
+  border-radius:8px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.btn-small {
+  display:inline-block;
+  margin-top:10px;
+  background:#2563eb;
+  color:#fff;
+  padding:8px 16px;
+  border-radius:5px;
+}
+
+.btn {
+  background:#2563eb;
+  color:#fff;
+  padding:12px 24px;
+  border-radius:5px;
+}
+
+.event-card {
+  background:#fff;
+  padding:1rem;
+  border-radius:8px;
+  margin-bottom:1rem;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.site-footer {
+  text-align:center;
+  background:#222;
+  color:#fff;
+  padding:1rem;
+  margin-top:2rem;
+}
+
+/* Contact form (contact.html) */
+form input,
+form textarea {
+  width:100%;
+  padding:10px;
+  margin:7px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+/* Newsletter section (optional usage on home page) */
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  max-width: 350px;
+  padding: 10px;
+  border-radius:5px;
+  border:1px solid #ccc;
+  margin:5px auto;
+  display:block;
+}
+
+.newsletter button {
+  padding:10px 20px;
+  background:#ff0000;
+  color:#fff;
+  border:none;
+  border-radius:5px;
+}
