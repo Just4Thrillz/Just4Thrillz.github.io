@@ -96,6 +96,19 @@
   </form>
 </section>
 
+<section id="booking">
+  <h2>Book Your Spot</h2>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <select name="event">
+      <option value="retreat">Retreat</option>
+      <option value="popup">Pop-Up</option>
+    </select>
+    <button type="submit" class="cta-button">Submit</button>
+  </form>
+</section>
+
   <section id="merch">
     <h2>Shop the Drop</h2>
     <p>Streetwear that speaks your truth. Bold, wearable, unforgettable.</p>
