@@ -1,26 +1,66 @@
-/index.html
-/coaching.html
-/assets/just4thrillz-logo.jpeg
-<img src="assets/just4thrillz-logo.jpeg" alt="Just4Thrillz Logo" width="220" />
-img {
-  display: block;
-  margin: 20px auto;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-}
 
-<header>
-  <img src="assets/just4thrillz-logo.jpeg" alt="Just4Thrillz Logo" />
-  <h1>Welcome to Just4Thrillz</h1>
-</header>
-git add .
-git commit -m "Add Just4Thrillz logo"
-git push origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just4Thrillz</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #111;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      text-align: center;
+      padding: 2rem;
+    }
+    header img {
+      max-width: 200px;
+    }
+    h1 {
+      color: #ff0000;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      background-color: #222;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .highlight {
+      color: #ffcc00;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <img src="logo.jpeg" alt="Just4Thrillz Logo" />
+    <h1>Just4Thrillz</h1>
+    <p class="highlight">Entertainment. Wellness. Connection.</p>
+  </header>
 
-
-    
- 
   <nav>
     <a href="#about">About</a>
     <a href="#services">What We Do</a>
@@ -30,7 +70,7 @@ git push origin main
 
   <section id="about">
     <h2>About Us</h2>
-    <p>Just4Thrillz is a lifestyle brand based in Baltimore, Maryland, founded by Lorraine and Michael. We create unforgettable experiences that blend entertainment, wellness, travel, and personal growth. From rooftop parties to soul-refreshing retreats, our mission is to help you live loud, love hard, and vibe fully.</p>
+    <p>Just4Thrillz is a lifestyle brand based in Baltimore, Maryland, founded by Lorraine. We create unforgettable experiences that blend entertainment, wellness, travel, and personal growth. From rooftop parties to soul-refreshing retreats, our mission is to help you live loud, love hard, and vibe fully.</p>
   </section>
 
   <section id="services">
@@ -49,32 +89,10 @@ git push origin main
     <h2>Upcoming Events</h2>
     <ul>
       <li><strong>Glow & Grow Retreat – Fall 2025</strong>: A weekend of workshops, wellness, and wild fun.</li>
-      <li><strong>Talk Dining: Healthy Food Edition – October 2025</strong>: Real talk. Real flavor. Real connection.</li>
-      <li><strong>Thrillz Trip: Top of the World Takeover – Winter 2025</strong>: Sun, soul, and unforgettable vibes.</li>
+      <li><strong>Talk Dining: Soul Food Edition – October 2025</strong>: Real talk. Real flavor. Real connection.</li>
+      <li><strong>Thrillz Trip: Tulum Takeover – Winter 2025</strong>: Sun, soul, and unforgettable vibes.</li>
     </ul>
   </section>
-
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
-  <link rel="stylesheet" href="assets/style.css" />
-</head>
-
-  <header>
-    <img src="assets/logo.jpeg" alt="Just4Thrillz Logo" />
-    <h1>Relationship Coaching</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="events.html">Events</a>
-      <a href="merch.html">Merch</a>
-      <a href="launch.html">Campaign</a>
-      <a href="retreats.html">Retreats</a>
-      <a href="community.html">Community</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  
 
   <section id="contact">
     <h2>Contact Us</h2>
