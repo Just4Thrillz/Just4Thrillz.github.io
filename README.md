@@ -1,65 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Just4Thrillz</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #111;
-      color: #eee;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #000;
-      text-align: center;
-      padding: 2rem;
-    }
-    header img {
-      max-width: 200px;
-    }
-    h1 {
-      color: #ff0000;
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    nav {
-      background-color: #222;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .highlight {
-      color: #ffcc00;
-    }
-    footer {
-      background-color: #000;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-  </style>
-</head>
-<body>
+<img src="assets/just4thrillz-logo.jpeg" alt="Just4Thrillz Logo" width="220" />
 
-  <header>
-    <img src="logo.jpeg" alt="Just4Thrillz Logo" />
-    <h1>Just4Thrillz</h1>
-    <p class="highlight">Entertainment. Wellness. Connection.</p>
-  </header>
 
+
+
+    
+ 
   <nav>
     <a href="#about">About</a>
     <a href="#services">What We Do</a>
