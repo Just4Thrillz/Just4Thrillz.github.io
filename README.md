@@ -1,11 +1,5 @@
 !_[Image_Alt]https://github.com/Just4Thrillz/Just4Thrillz.github.io/blob/43a81bee2f96a3f6ac38926a33a377ad44792d6b/Copilot_20250819_124301.png
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Just4Thrillz</title>
-  <style>
+
     body {
       font-family: 'Arial', sans-serif;
       background-color: #111;
