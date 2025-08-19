@@ -83,18 +83,20 @@
     <button class="cta-button">Book Now</button>
   </section>
 
-<section id="booking">
-  <h2>Book Your Spot</h2>
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Email" required />
-    <select name="event">
-      <option value="retreat">Retreat</option>
-      <option value="popup">Pop-Up</option>
-    </select>
-    <button type="submit" class="cta-button">Submit</button>
-  </form>
-</section>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+  const stripe = Stripe('pk_live_YOUR_PUBLIC_KEY'); // Replace with your key
+
+  document.getElementById('checkout-button').addEventListener('click', () => {
+    stripe.redirectToCheckout({
+      lineItems: [{ price: 'price_YOUR_PRICE_ID', quantity: 1 }],
+      mode: 'payment',
+      successUrl: 'https://just4thrillz.com/success',
+      cancelUrl: 'https://just4thrillz.com/cancel',
+    });
+  });
+</script>
+
 
 <section id="booking">
   <h2>Book Your Spot</h2>
