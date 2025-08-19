@@ -1,5 +1,21 @@
+/index.html
+/coaching.html
+/assets/just4thrillz-logo.jpeg
 <img src="assets/just4thrillz-logo.jpeg" alt="Just4Thrillz Logo" width="220" />
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
 
+<header>
+  <img src="assets/just4thrillz-logo.jpeg" alt="Just4Thrillz Logo" />
+  <h1>Welcome to Just4Thrillz</h1>
+</header>
+git add .
+git commit -m "Add Just4Thrillz logo"
+git push origin main
 
 
 
